@@ -1,3 +1,12 @@
+# Problem statement:
+"""Given 2 arrays, find the union of the two arrays.
+For example:
+arr1[] = {1,2,3,4,5}
+arr2[] = {2,3,4,4,5}
+output: [1,2,3,4,5]"""
+
+
+
 # Approach 1:
 arr1 = [1,2,3,4,5]
 arr2 = [4,5,6,7,8]
@@ -16,11 +25,13 @@ If not then we make the value as 1 corresponding to the key.
 Then i have stored all the keys in the list and then print the list."""
 
 
+
 # Approach 2:
 # final_arr = list(set(arr1 + arr2))
 # print(final_arr)
 """The best approach that is present in python is using the sets to remove the duplicate element from the array.
 """
+
 
 
 # Approach 3:
