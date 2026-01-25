@@ -48,8 +48,7 @@ rest all is same."""
 that is from [1,1,0,1,1,1] to ['1','1','0','1','1','1']
 Then we are joining them without any seperator ['110111']
 Once that is done, we are then finding the max length of the 1's by sepearating them using the split function.
-so we will get max(len(1,1),len(1,1,1)).
-"""
+so we will get max(len(1,1),len(1,1,1))."""
 
 
 from itertools import groupby
