@@ -7,7 +7,6 @@ output: [1,2]
 """
 
 
-
 # Approach 1:
 # arr = [3,5,4,1,1]
 # n = len(arr)
