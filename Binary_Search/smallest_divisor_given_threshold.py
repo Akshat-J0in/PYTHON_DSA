@@ -33,6 +33,7 @@ def smallest_divisor(arr, target):
 arr = [8,4,2,3]
 limit = 10
 print(smallest_divisor(arr,limit))
+
 """
 Here i have set the low and high as 1 and max value of the array. then i found the mid of the value.
 Once that is done, i have set a condition where if the sum of the divisor that is ceil of the sum of number divided by mid is
