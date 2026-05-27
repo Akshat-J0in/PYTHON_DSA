@@ -1,0 +1,29 @@
+str = "()(()())(())"
+
+ans = []
+
+count = 0
+
+for ch in str:
+
+    if ch == '(':
+        if count > 0:
+            ans.append(ch)
+        count += 1
+
+    else:
+        count -= 1
+        if count > 0:
+            ans.append(ch)
+
+print(''.join(ans))
+
+"""
+Here we have a string of parentheses and we have to remove the outermost parentheses.
+We will keep a count variable which will keep track of the number of open parentheses.
+if the character is open parentheses then we will check if count is greater than 0 or not.
+If yes then we will add the character to the answer list and then we will increment the count variable.
+If the character is closed parentheses then we will decrement the count variable and then we will check if count is greater than 0 or not. 
+If yes then we will add the character to the answer list.
+Finally we will join the answer list and return the string.
+"""
