@@ -15,6 +15,12 @@ word = "Welcome to the jungle"
 # words = word.split(" ")
 # reversed_words = words[::-1]
 # print(' '.join(reversed_words))
+"""
+Over here we are using the built-in functions to reverse the words in the string.
+First we are splitting the string into a list of words using the split() function.
+Then we are reversing the list of words using slicing.
+Finally we are joining the reversed list of words using the join() function and returning the string.
+"""
 
 
 
@@ -37,3 +43,10 @@ while i >= 0:
     words.append(word[i + 1:end + 1])
 
 print(' '.join(words))
+"""
+Over here we are not using any built-in functions to reverse the words in the string.
+We are using a while loop to iterate through the string from the end to the beginning.
+First we are skipping the spaces at the end of the string.
+Then we are finding the end index of the word and then we are finding the start index of the word.
+Finally we are appending the word to the list of words and then we are joining the list of words using the join() function and returning the string.
+"""
