@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Given a string s, representing a large integer, the task is to return the largest-valued odd integer (as a string) that is a substring of the given string s.
+The number returned should not have leading zero's. But the given input string may have leading zero.
+"""
+
+
+
 s = "0214638"
 
 # Approach 1: Using a while loop to find the last odd digit
