@@ -12,6 +12,13 @@ s = "0214638"
 #     x -= 1
 
 # print(s[:substring + 1])
+"""
+Over here we are using a while loop to find the last odd digit in the string.
+First we are using the lstrip() function to remove the leading zeros from the string.
+Then we are using a while loop to iterate through the string from the end to the beginning.
+If we find an odd digit then we will break the loop and we will print the substring from the beginning of the string to the index of the last odd digit.
+If we don't find any odd digit then we will print an empty string.
+"""
 
 
 
@@ -25,3 +32,10 @@ for i in range(len(s)-1, -1, -1):
         break
 else:
     print('')
+"""
+Over here we are using a for loop to find the last odd digit in the string.
+First we are using the lstrip() function to remove the leading zeros from the string.
+Then we are using a for loop to iterate through the string from the end to the beginning.
+If we find an odd digit then we will break the loop and we will print the substring from the beginning of the string to the index of the last odd digit.
+If we don't find any odd digit then we will print an empty string.
+"""
