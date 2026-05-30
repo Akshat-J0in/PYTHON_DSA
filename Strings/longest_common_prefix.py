@@ -19,3 +19,10 @@ for i in range(min(len(first), len(last))):
         break
     ans.append(first[i])
 print(''.join(ans))
+
+"""
+Here we are sorting the array of strings and then we are comparing the first and the last string in the sorted array.
+We are using a for loop to iterate through the characters of the first and the last string and we are checking if the characters are the same or not.
+If the characters are the same then we are adding the character to the answer list and if the characters are different then we are joining the answer list and returning the string.
+Finally we are joining the answer list and returning the string.
+"""
