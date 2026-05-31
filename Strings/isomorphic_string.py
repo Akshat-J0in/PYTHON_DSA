@@ -24,3 +24,16 @@ def isIsomorphic(s, t):
     return True
 
 print(isIsomorphic(s,t))
+"""
+This is the code for checking if the two strings are isomorphic or not.
+First we are checking if the length of both the strings are same or not.
+If not then we can say that they are not isomorphic and return false.
+Then we are creating two dictionaries one for mapping the characters of string s to string t
+and another for mapping the characters of string t to string s.
+Then we are running a loop where we are checking each character of both the strings at the same time using zip function.
+Inside the loop we are checking if the character of string s is already present in the mapping_s_t dictionary or not.
+If it is present then we are checking if the mapped character is same as the character of string t or not.
+If not then we can say that they are not isomorphic and return false.
+If the character of string s is not present in the mapping_s_t dictionary then we are adding the mapping of character of string s to character of string t in the dictionary.
+Then we are doing the same for the character of string t in the mapping_t_S dictionary.
+"""
