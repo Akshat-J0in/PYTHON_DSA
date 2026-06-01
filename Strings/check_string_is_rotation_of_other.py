@@ -30,6 +30,12 @@ goal = "tionrota"
 #     print("Yes, the string is a rotation of the other")
 # else:
 #     print("No, the string is not a rotation of the other")
+"""
+Here in this code, we are first creating two empty hash maps to store the frequency of each character in both strings.
+Then we are iterating through both strings and counting the frequency of each character and storing it in the respective hash maps.
+Finally, we are comparing the two hash maps. If they are equal, then we can say that the string is a rotation of the other.
+Otherwise, it is not.
+"""
 
 
 
@@ -39,3 +45,9 @@ if goal in new_string:
     print("Yes, the string is a rotation of the other")
 else:
     print("No, the string is not a rotation of the other")
+"""
+Here in this code, we are first adding the string to itself.
+This is because if the goal is a rotation of the string, then it will be a substring of the new string.
+Then we are checking if the goal is a substring of the new string. If it is, then we can say that the string is a rotation of the other.
+Otherwise, it is not.
+"""
