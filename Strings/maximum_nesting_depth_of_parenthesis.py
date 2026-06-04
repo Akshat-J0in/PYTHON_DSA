@@ -1,3 +1,10 @@
+"""
+Problem Statement:
+Given a valid parentheses string s, return the nesting depth of s. The nesting depth is the maximum number of nested parentheses.
+"""
+
+
+
 s = "(1+(2*3)+((8)/4))+1"
 ans = 0
 count = 0
