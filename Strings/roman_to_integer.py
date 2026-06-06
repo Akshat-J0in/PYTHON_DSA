@@ -23,3 +23,12 @@ for i in range(len(s)-1):
 
 res += roman[s[-1]]
 print(res)
+"""Here in this code, we are first taking the input from the user, to give us the roman numeral.
+Then we are creating a dictionary to store the value of each roman numeral.
+Then we are running a loop till the length of the string -1.
+Here we are checking if the value of the current character is less than the next character.
+If so then we are subtracting the value of the current character from the result.
+Else we are adding the value of the current character to the result.
+Then we are adding the value of the last character to the result and printing it.
+This is how we can convert a roman numeral to an integer.
+"""
