@@ -45,3 +45,14 @@ def atoi(s):
 
 S = "   -42"
 print(atoi(S))
+"""
+Here in this code, we are first taking the input from the user, to give us the string.
+Then we are initializing a variable i to 0, to keep track of the index of the string.
+Then we are running a loop to ignore any leading whitespace characters until the first non-whitespace character is found.
+Then we are checking the next character to determine the sign. If it’s a '-', the number should be negative.
+If it’s a '+', the number should be positive. If neither is found, we assume the number is positive.
+Then we are defining a recursive function dfs to read the digits and convert them into a number.
+We stop reading once a non-digit character is encountered or the end of the string is reached. Leading zeros are ignored during conversion.
+Then we are multiplying the computed number with the sign to get the final result.
+Then we are clamping the result within the 32-bit signed integer range and returning it.
+"""
