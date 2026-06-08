@@ -22,6 +22,13 @@ s = " Welcome to the jungle "
 # reversed_string = " ".join(list_of_words[::-1])
 
 # print(reversed_string)
+"""
+Here in this code, we are first converting the input string to lower case using the lower() method.
+Then we are using the strip() method to remove any leading and trailing spaces from the string.
+Then we are using the split() method to split the string into a list of words based on spaces.
+Then we are reversing the list of words using slicing and joining them back into a string with a single space in between using the join() method.
+Finally, we are printing the reversed string.
+"""
 
 
 
