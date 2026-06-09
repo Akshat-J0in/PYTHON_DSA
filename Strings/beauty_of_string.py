@@ -25,3 +25,11 @@ for i in range(n):
 
 print(total)
 print(substrings)
+"""
+Here first we have taken the input string and then we have made a list for storing all the substrings.
+Then we have made a variable total for storing the sum of beauty of all the substrings.
+Then we have made two loops for generating all the substrings of the string.
+In the inner loop, we have made a frequency dictionary for storing the frequency of each character in the current substring.
+Then we have calculated the maximum and minimum frequency of the characters in the current substring and then we have added the difference of maximum and minimum frequency to the total variable.
+Finally, we have printed the total variable which contains the sum of beauty of all the substrings and also we have printed all the substrings.
+"""
