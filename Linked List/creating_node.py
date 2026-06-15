@@ -19,3 +19,8 @@ y = Node(arr[0])
 
 print(y)
 print(y.data)
+"""
+Here the class has 2 parameters 'data' which contains the value of the node
+and the 'next' which contains the pointer to the next node.
+The default value of 'next' is None, which means that the node is not pointing to any other node.
+"""
