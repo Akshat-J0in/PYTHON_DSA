@@ -39,6 +39,13 @@
 #     while temp:
 #         print(temp.data, end=' ')
 #         temp = temp.next
+"""
+Over here we are deleting a node from the start of the linked list.
+So over here first we define a class node that will create a node and make a linedlist.
+then we have a class solution where we have a mentioned a condition where if the head is null or the head of next is null then we are returning null.
+If this is not the case then we are making the head of data as data of head of next and the value it points to is head of next of next
+"""
+
 
 
 # Deleting node from the end of the linedlist
@@ -87,3 +94,10 @@ if __name__ == "__main__":
     while temp:
         print(temp.data, end=" ")
         temp = temp.next
+    """
+    Over here we are deleting the tail of the linked list.
+    Over here the node class remains the same.
+    The solution class over here changes.
+    That is if head is none or head of next is none, we will return none
+    Otherwise we will go to the second last node using while loop and make the the next node of the second last node as null and then return the head.
+    """
