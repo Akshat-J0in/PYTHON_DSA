@@ -38,3 +38,10 @@ if __name__ == "__main__":
     while temp:
         print(temp.data, end=' ')
         temp = temp.next
+"""
+Over here i have first created a class for node where we initialize th elinked list.
+Then i have created a class solution where we have created a new method in which we are taking two parameter as input
+one is the head of the LL and the other is the new value that will become the head.
+Now we again create a noe in that method where the new node is pointing to the head of the prev LL head.
+and then we print the LL.
+"""
