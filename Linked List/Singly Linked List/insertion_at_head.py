@@ -1,3 +1,12 @@
+"""
+Problem statement:
+Given a linked list and an integer value val,
+insert a new node with that value at the beginning (before the head) of the list
+and return the updated linked list.
+"""
+
+
+
 class node:
     def __init__(self, data1, next1 = None):
         self.data = data1
