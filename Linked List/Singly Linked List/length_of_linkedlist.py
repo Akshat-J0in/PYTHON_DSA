@@ -26,3 +26,9 @@ if __name__ == "__main__":
 
     obj = solution()
     print(obj.count_length(head))
+"""
+This is a simple code where we have created a node and then in main we are filling the values.
+Then i have created a class where we have a method count_length. Over here we have created a count variable and we run the loop till our head is not null
+And till our head is not null, we will increment the count variable.
+Once we are out off the loop, we will return the count.
+"""
