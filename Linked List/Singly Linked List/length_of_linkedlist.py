@@ -1,3 +1,10 @@
+"""
+Problem Statement:
+Given the head of a linked list, print the length of the linked list.
+"""
+
+
+
 class node:
     def __init__(self, data1):
         self.data = data1
