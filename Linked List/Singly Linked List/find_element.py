@@ -38,3 +38,7 @@ if __name__ == "__main__":
         print("Found")
     else:
         print("Not Found")
+"""
+This is also a simple code where we have first taken the values form the user and created a linked list then we have created another class of solution.
+In this we have created a method where we have found if the element is present in the list or not. If not then we return false and if there we return true.
+"""
