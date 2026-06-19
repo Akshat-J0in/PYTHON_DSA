@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Given the head of a linked list and an integer value, find out whether the integer is present in the linked list or not.
+Return true if it is present, or else return false.
+"""
+
+
+
 class node:
     def __init__(self, data):
         self.data = data
