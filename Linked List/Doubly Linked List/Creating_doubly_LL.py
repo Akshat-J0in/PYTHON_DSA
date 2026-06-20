@@ -1,3 +1,10 @@
+"""
+Problem Statement:
+How do we create doubly linked list
+"""
+
+
+
 class node:
     def __init__(self, data, next = None, prev = None):
         self.data = data
