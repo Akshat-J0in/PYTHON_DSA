@@ -1,3 +1,10 @@
+"""
+Problem Statement:
+Given a Doubly Linked List, and a value k, insert a node having bac value 'k' at the end of the doubly lined list.
+"""
+
+
+
 class Node:
     def __init__(self, data, next = None, back = None):
         self.data = data
