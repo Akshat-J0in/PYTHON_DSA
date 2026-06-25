@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Given the head of a linked list of integers, determine the middle node of the linked list.
+However, if the linked list has an even number of nodes, return the second middle node.
+"""
+
+
+
 class node:
     def __init__(self, data, next = None):
         self.data = data
