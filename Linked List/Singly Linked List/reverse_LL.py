@@ -1,3 +1,9 @@
+"""
+Problem Statement:
+Given the head of a singly linked list, write a program to reverse the linked list, and return the head pointer to the reversed list.
+"""
+
+
 class node:
     def __init__(self, data):
         self.data = data
