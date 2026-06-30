@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Given the head of a linked list that may contain a cycle, return the starting point of that cycle.
+If there is no cycle in the linked list return null.
+"""
+
+
+
 class node:
     def __init__(self, data, next = None):
         self.data = data
