@@ -1,3 +1,10 @@
+"""
+Problem Statement:
+Given the head of a linked list, determine the length of a loop present in the linked list. If there's no loop present, return 0.
+"""
+
+
+
 class node:
     def __init__(self, data, next = None):
         self.data = data
