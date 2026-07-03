@@ -1,3 +1,10 @@
+"""
+Problem Statement:
+Given a linked list and an integer N, the task is to delete the Nth node from the end of the linked list and print the updated linked list.
+"""
+
+
+
 class node:
     def __init__(self, data, next = None):
         self.data = data
