@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Given the head of a linked list of integers, delete the middle node of the linked list and return the modified head.
+However, if the linked list has an even number of nodes, delete the second middle node.
+"""
+
+
+
 class node:
     def __init__(self, data, next=None):
         self.data = data
