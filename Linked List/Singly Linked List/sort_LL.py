@@ -1,3 +1,10 @@
+"""
+Problem Statement:
+Given a linked list, sort its nodes based on the data value in them. Return the head of the sorted linked list.
+"""
+
+
+
 # Node class represents a linked list node
 class Node:
     # Constructor with data and next pointer
