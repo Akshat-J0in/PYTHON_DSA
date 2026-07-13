@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Given the head of a doubly linked list and an integer target.
+Delete all nodes in the linked list with the value target and return the head of the modified linked list.
+"""
+
+
+
 class Node:
     def __init__(self, val):
         self.data = val
