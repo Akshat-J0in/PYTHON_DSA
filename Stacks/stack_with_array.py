@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Implement a Last-In-First-Out (LIFO) stack using an array.
+The implemented stack should support the following operations: push, pop, peek, and isEmpty.
+"""
+
+
+
 class ArrayStack:
     def __init__(self, size = 1000):
         self.stackArray = [0]*size
