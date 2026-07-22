@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Implement a First-In-First-Out (FIFO) queue using an array.
+The implemented queue should support the following operations: push, dequeue, pop, and isEmpty.
+"""
+
+
+
 class ArrayQueue:
     def __init__(self):
         self.arr = [0] * 10
