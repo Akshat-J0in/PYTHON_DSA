@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Implement a Last-In-First-Out (LIFO) stack using a single queue.
+The implemented stack should support the following operations: push, pop, top, and isEmpty.
+"""
+
+
+
 from queue import Queue
 
 class QueueStack:
