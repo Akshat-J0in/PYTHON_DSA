@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Implement a First-In-First-Out (FIFO) queue using two stacks.
+The implemented queue should support the following operations: push, pop, peek, and isEmpty.
+"""
+
+
+
 class stackQueue:
     def __init__(self):
         self.input = []
