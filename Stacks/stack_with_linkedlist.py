@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Implement a Last-In-First-Out (LIFO) stack using a singly linked list.
+The implemented stack should support the following operations: push, pop, top, and isEmpty.
+"""
+
+
+
 class Node:
     def __init__(self,d):
         self.val = d
