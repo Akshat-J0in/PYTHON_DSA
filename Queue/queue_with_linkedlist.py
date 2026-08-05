@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+Implement a First-In-First-Out (FIFO) queue using a singly linked list.
+The implemented queue should support the following operations: push, pop, peek, and isEmpty.
+"""
+
+
+
 class Node:
     def __init__(self, d):
         self.val = d
