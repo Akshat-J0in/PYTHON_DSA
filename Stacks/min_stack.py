@@ -1,3 +1,10 @@
+"""
+Problem Statement:
+Design a stack that supports the following operations in constant time: push, pop, top, and retrieving the minimum element.
+"""
+
+
+
 class MinStack:
     def __init__(self):
         self.stack = []
