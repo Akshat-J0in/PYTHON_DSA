@@ -1,3 +1,9 @@
+"""
+Problem Statement: Given an infix expression, Your task is to convert the given infix expression to a postfix expression.
+"""
+
+
+
 def prec(c):
     if c == "^":
         return 3
