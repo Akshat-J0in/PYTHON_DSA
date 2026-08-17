@@ -1,3 +1,13 @@
+"""
+Problem Statement:
+You are given a valid arithmetic expression in prefix notation.
+Your task is to convert it into a fully parenthesized infix expression.
+Prefix notation (also known as Polish notation) places the operator before its operands.
+In contrast, infix notation places the operator between operands.
+"""
+
+
+
 # Now this is the main fuction where we are going to convert the prefix to infix
 def prefix_to_infix(prefix):
     stack = []
