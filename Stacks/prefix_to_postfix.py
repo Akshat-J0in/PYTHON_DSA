@@ -1,3 +1,11 @@
+"""
+Problem Statement:
+You are given a valid prefix expression consisting of binary operators and single-character operands.
+Your task is to convert it into a valid postfix expression.
+"""
+
+
+
 # Now this function will help us to convert the prefix expression to the postfix expression
 def prefix_to_postfix(prefix):
     stack = []
