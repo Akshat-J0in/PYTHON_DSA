@@ -19,7 +19,7 @@ def prefix_to_postfix(prefix):
 
             stack.append(op1 + op2 + c)
 
-        return stack[-1]
+    return stack[-1]
 
 # Now we will create the main function for this program:
 def main():
