@@ -1,3 +1,13 @@
+"""
+Problem Statement:
+You are given a valid postfix expression as a string, where:
+Operands are single lowercase English letters ('a' to 'z')
+Operators are binary: '+', '-', '*', '/'
+The expression contains no spaces and is guaranteed to be valid.
+"""
+
+
+
 # Now here we are going to create a function that will convert postfix to prefix
 def postfix_to_prefix(postfix):
     stack = []
